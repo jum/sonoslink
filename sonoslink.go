@@ -10,8 +10,8 @@ import (
 )
 
 var (
-	iTunesRoot = flag.String("src", "/Volumes/Hydra/Musik", "iTunes original music folder")
-	sonosRoot  = flag.String("dst", "/Volumes/Hydra/SonosMusik", "Sonos music folder")
+	iTunesRoot = flag.String("src", "/Volumes/Media/Musik", "iTunes original music folder")
+	sonosRoot  = flag.String("dst", "/Volumes/Media/SonosMusik", "Sonos music folder")
 	srcList    = flag.String("list", "", "file name with list of subdirs")
 	//iTunesRoot = flag.String("src", "test", "iTunes original music folder")
 	//sonosRoot  = flag.String("dst", "sonos", "Sonos music folder")
